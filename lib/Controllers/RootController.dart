@@ -6,6 +6,6 @@ class RootController extends GetxController {
 
   void changePage(int index) {
     selectedIndex.value = index;
-    containerPosition.value = index * Get.width / 5;
+    containerPosition.value = index * Get.width / 4 + 40;
   }
 }
